@@ -14,6 +14,8 @@ dependencies = [
 [project.scripts]
 traffic-track = "traffic_track:main"
 trim-video = "utilities.trim_video:main"
+export-reid-thumbs = "tools.export_reid_thumbs:main"
+prepare-reid-batch = "tools.prepare_reid_batch:main"
 
 [build-system]
 requires = ["setuptools>=61"]
@@ -21,4 +23,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 py-modules = ["traffic_track"]
-packages = ["utilities"]
+packages = ["utilities", "tools"]

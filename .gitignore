@@ -23,7 +23,9 @@ reports/detection_only_videos_for_advisor/
 # Data and media (large; keep locally)
 trimmed/
 clips/
-data/
+data/**
+!data/reid/
+!data/reid/jobs.example.csv
 *.mp4
 *.avi
 *.mov
