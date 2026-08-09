@@ -1,0 +1,24 @@
+[project]
+name = "multi-camera-reid"
+version = "0.1.0"
+description = "Traffic intersection vehicle and pedestrian tracking pipeline."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "lap>=0.5.13",
+    "opencv-python",
+    "pandas",
+    "ultralytics",
+]
+
+[project.scripts]
+traffic-track = "traffic_track:main"
+trim-video = "utilities.trim_video:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["traffic_track"]
+packages = ["utilities"]

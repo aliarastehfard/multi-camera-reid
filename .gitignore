@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+
+# Local caches and Ultralytics settings
+.cache/
+Ultralytics/
+
+# Generated outputs
+outputs/
+runs/
+detection_only_videos_1_min/
+reports/detection_only_videos_for_advisor/
+
+# Data and media (large; keep locally)
+trimmed/
+clips/
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Model weights (downloaded by Ultralytics on first run)
+*.pt
+*.onnx
