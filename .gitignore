@@ -25,7 +25,9 @@ trimmed/
 clips/
 data/**
 !data/reid/
-!data/reid/jobs.example.csv
+!data/reid/jobs*.csv
+!data/reid/neagleville_hillside_2026-04-06/
+!data/reid/neagleville_hillside_2026-04-06/**
 *.mp4
 *.avi
 *.mov
