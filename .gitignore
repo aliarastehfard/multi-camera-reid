@@ -43,3 +43,21 @@ data/reid/**/logs/reid_results_readable.txt
 # Model weights (downloaded by Ultralytics on first run)
 *.pt
 *.onnx
+
+# Generated ReID report artifacts (regenerable; thumbs/pdf/html)
+reports/**/preview_thumbs/
+reports/**/matches.csv
+reports/**/*.html
+reports/**/*.pdf
+
+# Case-sensitive video extensions on Linux
+*.MP4
+*.AVI
+*.MOV
+*.MKV
+*.WEBM
+
+# Optional hardening
+.env
+.env.*
+*.pkl
